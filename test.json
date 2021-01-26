@@ -1,25 +1,10 @@
 {
   "type": 1,
-  "title": "Trillium",
-  "name": "trilium",
+  "title": "Trilium",
   "description": "Trilium Notes is a hierarchical note taking application.",
   "logo": "https://raw.githubusercontent.com/zadam/trilium/master/images/trilium.svg",
   "image": "zadam/trilium:latest",
-  "note": "See https://github.com/zadam/trilium for details.",
-  "categories": [
-    "Other",
-    "Tools"
-  ],
-  "platform": "linux",
-  "restart_policy": "always",
   "ports": [
     "8080:8080/tcp"
-  ],
-  "network_mode": "bridge",
-  "volumes": [
-    {
-      "container": "trilium:/data",
-      "bind": "!downloads"
-    }
   ]
 }
