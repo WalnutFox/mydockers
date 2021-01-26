@@ -1,7 +1,7 @@
 {
   "type": 1,
   "title": "Trillium",
-  "name": "zadam/trilium",
+  "name": "trilium",
   "description": "Trilium Notes is a hierarchical note taking application.",
   "logo": "https://raw.githubusercontent.com/zadam/trilium/master/images/trilium.svg",
   "image": "zadam/trilium:latest",
